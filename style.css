@@ -98,3 +98,32 @@ header {
 .carta{
     width: 300px;
 }
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(216, 166, 216);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .social_icon{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   margin: 10px 0;
+   flex-wrap: wrap;
+}
+footer .social_icon li{
+    list-style: none;
+
+}
+footer .social_icon li a{
+font-size: 2em;
+color: rgb(66, 7, 66);
+margin: 0 10px;
+}
+
+
