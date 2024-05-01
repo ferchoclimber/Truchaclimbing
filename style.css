@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 h1{ font-size: 3.5em;
      color : purple;
@@ -38,8 +40,11 @@ header {
     display: flex;
     justify-content: space-between;
     height: 130px;
-    
 }
+
+
+    
+
 .info {
     
     display: flex;
@@ -54,6 +59,7 @@ header {
     align-items: center;
    }
 #logo{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,6 +130,13 @@ footer .social_icon li a{
 font-size: 2em;
 color: rgb(66, 7, 66);
 margin: 0 10px;
+}
+@media screen and (max-width:800px) {
+    .logoCabezera {
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+    }
 }
 
 
