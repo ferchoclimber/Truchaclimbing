@@ -151,16 +151,28 @@ footer .ola {
     left: 0;
     width: 100%;
     height: 100px;
-    background: rgb(230, 208, 230) url(img/ola.jpg);
+    background: rgb(230, 208, 230) url(img/ola1.jpg);
     background-size: 1000px 100px;
 
 }
-@media screen and (max-width:800px) {
-    .logoCabezera {
+footer .ola#ola1{
+   z-index: 1000;
+   opacity: 1;
+   bottom: 0;
+   animation: olaanimada 4s linear infinite;
+
+}
+@keyframes olaanimada {
+    0%{
+        background-position-x: 1000px;
+    }
+}
+/* @media screen and (max-width:800px) {
+    .logoCabezera 
         flex-direction: column;
         height: 120px;
         justify-content: space-evenly;
-    }
-}
+    
+} */
 
 
