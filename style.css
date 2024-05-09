@@ -31,6 +31,23 @@ button {
     color: white;
     background-color: blueviolet;
 }
+.carousel-control-prev {
+    width: 50px;
+    height: 70px;
+    align-content: space-between;
+    
+   
+    
+}
+section .carousel-control-next {
+
+    width: 50px;
+    height: 70px;
+    align-content: space-between;
+   
+   
+
+}
 
 button:hover {
     background-color: rgb(97, 66, 126);
